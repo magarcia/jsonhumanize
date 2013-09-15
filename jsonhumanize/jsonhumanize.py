@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import collections
+if not hasattr(collections, 'OrderedDict'):
+    import ordereddict as collections
 import json
 from lxml.html.builder import TABLE, TH, TD, TR, CLASS, SPAN
 import lxml.html

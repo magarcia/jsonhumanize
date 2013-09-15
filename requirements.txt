@@ -1,5 +1,8 @@
-tox
-coverage
-flake8
-sphinx
-lxml
+Sphinx==1.2b1
+coverage==3.6
+flake8==2.0
+lxml==3.2.3
+ordereddict==1.1
+pep8==1.4.6
+pyflakes==0.7.3
+tox==1.6.1
