@@ -1,0 +1,5 @@
+tox
+coverage
+flake8
+sphinx
+lxml
