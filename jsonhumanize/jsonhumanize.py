@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import collections
-if not hasattr(collections, 'OrderedDict'):
+import sys
+
+if sys.version_info[0] == 2 and sys.version_info[1] < 7:
     import ordereddict as collections
-import json
+    import simplejson as json
+else:
+    import collections
+    import json
+
 from lxml.html.builder import TABLE, TH, TD, TR, CLASS, SPAN
 import lxml.html
 

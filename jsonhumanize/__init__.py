@@ -3,9 +3,9 @@
 
 __author__ = 'Martin Garcia'
 __email__ = 'newluxfero@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
-from jsonhumanize import JsonHuman
+from .jsonhumanize import JsonHuman
 
 
 def main():
@@ -63,7 +63,7 @@ def main():
         shutil.copyfile(css_source, css_output)
 
     else:
-        print html
+        print(html)
 
 if __name__ == "__main__":
     main()
