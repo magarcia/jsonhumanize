@@ -20,3 +20,8 @@ Convert JSON to human readable HTML
 * Free software: MIT license
 * Documentation: http://jsonhumanize.rtfd.org.
 
+.. include:: docs/installation.rst
+
+.. include:: docs/usage.rst
+
+.. include:: docs/CONTRIBUTING.rst
