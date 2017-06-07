@@ -1,5 +1,5 @@
 Sphinx==1.6.2
-coverage==3.6
+coverage==4.4.1
 flake8==2.0
 lxml==3.2.3
 pep8==1.4.6
