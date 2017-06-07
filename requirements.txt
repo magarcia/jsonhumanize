@@ -1,7 +1,7 @@
 Sphinx==1.6.2
 coverage==4.4.1
 flake8==3.3.0
-lxml==3.2.3
+lxml==3.8.0
 pep8==1.4.6
 pyflakes==0.7.3
 tox==1.6.1
